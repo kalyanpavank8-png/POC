@@ -14,6 +14,9 @@
         </span>
 
         <template v-if="auth.isAdmin">
+          <RouterLink to="/admin" class="btn btn-sm btn-light text-primary fw-semibold">
+            <i class="bi bi-house-fill me-1"></i>Home
+          </RouterLink>
           <RouterLink to="/admin" class="btn btn-sm btn-outline-light">
             <i class="bi bi-list-check me-1"></i>Requests
           </RouterLink>
